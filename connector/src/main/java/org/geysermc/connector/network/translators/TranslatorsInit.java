@@ -141,7 +141,7 @@ public class TranslatorsInit {
         Registry.registerJava(ServerBlockChangePacket.class, new JavaBlockChangeTranslator());
         Registry.registerJava(ServerMultiBlockChangePacket.class, new JavaMultiBlockChangeTranslator());
         Registry.registerJava(ServerUnloadChunkPacket.class, new JavaUnloadChunkTranslator());
-
+        Registry.registerJava(ServerBlockBreakAnimPacket.class, new JavaBlockBreakAnimTranslator());
         Registry.registerJava(ServerUpdateViewPositionPacket.class, new JavaUpdateViewPositionTranslator());
         Registry.registerJava(ServerUpdateViewDistancePacket.class, new JavaUpdateViewDistanceTranslator());
 
